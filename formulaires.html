@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="formulaires.css">
+    <title>formulaire</title>
+</head>
+
+<body>
+    <label for="prenom">Prénom:</label>
+    <input type="text" name="prenom" placeholder="Ex: Karim" maxlength="20" id="prenom">
+    </from><br>
+    <label for="Nom">Nom:</label>
+    <input type="text" name="nom" placeholder="Ex: Boujandir" maxlength="20" minlength="2" id="nom">
+    </from><br>
+    <label for="E-mail">E-mail:</label>
+    <input type="text" name="E-mail" placeholder="Ex: rapide@hotmail.fr" maxlength="20" id="E-mail">
+    </from><br>
+    <label for="Numéro">Numéro:</label>
+    <input type="tel" name="prenom" placeholder="Ex: 118.218" maxlength="20" id="telehpone">
+    </from><br>
+    <label for="mot de passe">Mot de passe:</label>
+    <input type="password" placeholder="Ex: P@ssWo4d" />
+    </from><br>
+    <label for="age">age:</label>
+    <input type="number" placeholder="Ex: 15" />
+    </form><br>
+    <label for="Description">Pourquoi Marceau est-il toujours en retard?:</label><br>
+    <textarea placeholder="go.." minlength="20" maxlength="400" cols="70" rows="10">  </textarea><br>
+    <label for="date">date de mon commentaire:</label>
+    <input type="date" /><br>
+    <label for="Fichier">Ma photo:</label>
+    <input type="file" accept=".jpg,.png,.gif">
+    </form><br>
+    <fieldset>
+        <legend>Vous préférez:</legend>
+        <input type="checkbox" id="checkbox" /><label for="checbox">Le HTML</label><br>
+        <input type="checkbox" id="checkbox2" /><label for="checbox2">Le CSS</label></from><br>
+        <input type="checkbox" id="checkbox3" /><label for="checbox2">Le JavaScript</label></from><br>
+        <input type="checkbox" id="checkbox4" /><label for="checbox2">Ne rien faire</label></from><br>
+    </fieldset><br>
+    <fieldset>
+        <legend>Vous préférez:</legend>
+        <input type="checkbox" id="checkbox" /><label for="checbox">Hier</label><br>
+        <input type="checkbox" id="checkbox2" /><label for="checbox2">Demain</label></from><br>
+        <input type="checkbox" id="checkbox3" /><label for="checbox2">Aujourdhui</label></from><br>
+        <input type="checkbox" id="checkbox4" /><label for="checbox2">Jamais</label></from><br>
+    </fieldset><br>
+    <fieldset>
+        <legend>Fin du formulaire</legend>
+        <label for="liste">Liste</label>
+
+        <select name="liste" id="liste">
+
+            <option value="option1">Option 1</option>
+
+            <option value="option2">Option 2</option>
+
+            <option value="option3">Option 3</option>
+
+            <option value="option4">Option 4</option>
+
+        </select><br>
+        <label for="envoyer"></label>
+        <input type="submit" value="Envoyer">
+        <label for="Reset"></label>
+        <input type="Reset" value="Reset"></label>
+    </fieldset>
+
+</body>
+
+</html>
